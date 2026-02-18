@@ -20,3 +20,19 @@ Uses Chrome on your VPS (via Playwright) to check your Gmail **once per day** fo
 
 ## How to activate (once per day)
 Tell your Clawbot:
+Enable paintfloor-bidtakeoff-claw
+Run every day at 8:00 AM
+
+## What it does every day at 8 AM
+- Opens Chrome → Gmail (already logged in)
+- Searches for new bids with PDF attachments
+- Downloads PDFs
+- Uses vision to extract painting & flooring scope + exact systems + sq footage
+- Adds one clean row to your Google Sheet
+- Marks emails read + stars them
+- Sends you a short summary
+
+## Guardrails
+- Only real construction bid PDFs
+- Never guesses numbers or systems
+- Saves original PDFs in ~/Bids/Incoming/
