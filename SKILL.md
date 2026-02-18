@@ -1,15 +1,15 @@
 ---
 name: paintfloor-bidtakeoff-claw
-description: Browser-based painting & flooring bid takeoff agent. Checks Gmail once per day at 8 AM.
+description: Browser-based painting & flooring bid takeoff agent. Checks Gmail once per day at 8 AM using Playwright.
 ---
 
 # PaintFloor BidTakeoff Claw (Browser Version - Once Per Day)
 
 ## Purpose
-Uses Chrome on your VPS to check your Gmail **once per day** for new bid emails with PDF attachments, reads the plans with vision, does accurate painting + flooring takeoff, and saves everything to Google Sheet.
+Uses Chrome on your VPS (via Playwright) to check your Gmail **once per day** for new bid emails with PDF attachments, reads the plans with vision, does accurate painting + flooring takeoff, and saves everything to Google Sheet.
 
 ## Required base skills
-- browser-control
+- playwright-mcp
 - vision-analyzer
 
 ## One-time setup (do once)
