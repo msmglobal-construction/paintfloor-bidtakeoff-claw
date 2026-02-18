@@ -5,7 +5,7 @@ echo "🚀 Installing PaintFloor BidTakeoff Claw..."
 
 mkdir -p ~/.openclaw/skills/paintfloor-bidtakeoff-claw
 
-curl -fsSL https://raw.githubusercontent.com/megahousey/paintfloor-bidtakeoff-claw/main/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/msmglobal-construction/paintfloor-bidtakeoff-claw/main/SKILL.md \
   -o ~/.openclaw/skills/paintfloor-bidtakeoff-claw/SKILL.md
 
 echo "✅ Skill installed to ~/.openclaw/skills/paintfloor-bidtakeoff-claw"
